@@ -1,0 +1,60 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 10;
+}
+
+.contact-text {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 0;
+    color: darkgreen;
+}
+
+.contact-form {
+    background-color: #000003;
+    width: 50vw;
+    max-width: 50%;
+    padding: 2rem 4rem;
+    border-radius: 19px;
+
+}
+
+.label-class {
+    color: darkgreen
+}
+
+.textt {
+    color: darkgreen;
+}
+
+.input {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputlast-hcild {
+    margin-bottom: 0;
+}
+
+.input label {
+    font-weight: bold;
+    margin-bottom: .5rem
+}
+
+.input input {
+    outline: none;
+    background: none;
+    border: 1px solid #2E3852;
+    font-size: 1em;
+    padding: .5em;
+    color: darkgreen;
+    border-radius: 5px;
+}
+
+.inputbu input:focus {
+    border-color: aliceblue;
+}
