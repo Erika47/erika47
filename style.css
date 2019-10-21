@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: teal;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    color: aliceblue;
+    min-height: 100vh;
+}
+
+.full-height {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo-name {
+    margin-left: 10px;
+}
+
+
+.main-nav ul,
+.footer-navigation ul {
+    display: flex;
+    margin-right: 150px;
+    padding: 100px;
+    list-style: none;
+}
+
+.footer-navigation {
+    max-width: 1870px;
+}
+
+.main-nav a,
+.footer-navigation a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.main-nav a:hover,
+.footer-navigation a:hover {
+    color: darkgreen;
+
+}
+
+.footer-img {
+    margin-left: 650px;
+    margin-bottom: -300px;
+
+}
+
+.main-header,
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header {
+    height: 100px;
+}
+
+
+.main-footer {
+    height: 150px;
+    width: 1890px;
+    background-color: #202027;
+    margin-bottom: -500px;
+}
+
+.footer-text {
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: aquamarine;
+}
+
+.call-to-action {
+    margin-left: 500px;
+}
+
+.social-link img {
+    width: 1em;
+    margin-right: .25rem;
+}
+
+.list-text {
+    font-weight: bold;
+}
+
+.main-footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1890px;
+    margin: 0 10px;
+    padding: 2px;
+    flex-grow: 5;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.button {
+    color: aliceblue;
+    background-color: darkgreen;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: mediumpurple;
+}
+
+.button:focus {
+    background-color: rebeccapurple;
+}
